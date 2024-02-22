@@ -1,10 +1,58 @@
 body {
     font-family: Arial, sans-serif;
     text-align: center;
+    background-color: #f7f7f7;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+h1 {
+    color: #333;
+}
+
+.beans-container {
+    position: relative;
+    margin: 20px 0;
+}
+
+.bean {
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+}
+
+#beans {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
 }
 
 button {
-    margin-top: 10px;
+    margin-top: 20px;
     padding: 10px 20px;
     font-size: 16px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+button:focus {
+    outline: none;
 }
